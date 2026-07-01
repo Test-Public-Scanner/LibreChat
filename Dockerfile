@@ -1,7 +1,7 @@
 # v0.8.7-rc1
 
 # Base node image
-FROM node:24.16.0-alpine AS node
+FROM node:24.18.0-alpine AS node
 
 RUN apk upgrade --no-cache
 RUN apk add --no-cache jemalloc
